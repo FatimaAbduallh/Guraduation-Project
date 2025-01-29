@@ -11,13 +11,12 @@ class  Person extends Model
     use HasFactory;
     protected $fillable = [
         'first_name',
-        'last_name'
-        ,'gender',
-         'email',
-         'phone_number',
-         'identity_card_number'
-         ,'address',
+        'last_name',
+        'gender',
+        'email',
+        'phone_number',
+        'identity_card_number',
+        'address',
         'password',
     ];
-
 }
